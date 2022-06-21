@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.Optional;
 import javax.persistence.EntityManager;
 
-public class JpaRepository implements MemberRepository {
+public class JpaMemberRepository implements MemberRepository {
 
     private final EntityManager em;
 
-    public JpaRepository(EntityManager em) {
+    public JpaMemberRepository(EntityManager em) {
         this.em = em;
     }
 
